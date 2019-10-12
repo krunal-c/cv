@@ -1,15 +1,98 @@
+.top-cloud{
+  position: absolute;
+  right: 175px;
+  top: 50px;
+}
+.bottom-cloud{
+  position: absolute;
+  top: 325px;
+  left: 175px;
+}
+
+.top-container{
+  background-color: #d9eeec;
+  position: relative;
+  padding-top: 100px;
+}
+
+.bottom-container{
+  background-color: #66bfbf;
+  margin: 50px auto auto auto;
+  padding: 50px;
+}
 body{
-  background-color: #f7f7f7;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
 }
-
 h1{
-  color: #a0c334;
+  margin : 0;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.62rem;
+  color: #66BFBF;
 }
 
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  color: #66BFBF;
+}
 h3{
-  color: #5d5d5d;
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+.footer-link{
+  color: #11999E;
+}
+.role{
+  font-weight: normal;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.development-img{
+  width: 25%;
+  float: left;
+  padding-right: 30px;
+}
+.team-img{
+  width: 25%;
+  float: right;
+  padding-left: 30px;
+}
+.profile{
+  width: 50%;
+  margin: 30px auto 30px auto;
+  text-align: center;
+  line-height: 2;
+  padding-bottom: 50px;
+}
+.profile-img{
+  width: 25%;
 }
 
-.categories{
-  color: #a0c334;
+.break{
+  border: 5px dotted;
+  border-top: none;
+  width: 3%;
+}
+.h2-skills{
+  padding-top: 50px;
+}
+
+.contact-me{
+  padding-top: 50px;
+}
+
+.footer-link{
+  color: #11999e;
+  text-decoration: none;
+  font-family: 'Merriweather', serif;
+}
+
+.copy-right{
+  color: #eaf6f6;
 }
